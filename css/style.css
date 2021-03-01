@@ -1,0 +1,501 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+body {
+	line-height: 1;
+	color: #000;
+	background-color: #fff;
+	padding: 30px;
+	font-weight: 700;
+	font-size: 20px;
+	font-style: normal;
+	font-family: "Lato", Helvetica, sans-serif;
+}
+button {
+	cursor: pointer;
+	background-color: transparent;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+		url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-BoldItalic.woff2") format("woff2"), url("../fonts/Lato-BoldItalic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-LightItalic.woff2") format("woff2"), url("../fonts/Lato-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-BlackItalic.woff2") format("woff2"), url("../fonts/Lato-BlackItalic.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Italic.woff2") format("woff2"), url("../fonts/Lato-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato Hairline";
+	src: url("../fonts/Lato-Hairline.woff2") format("woff2"), url("../fonts/Lato-Hairline.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato Hairline";
+	src: url("../fonts/Lato-HairlineItalic.woff2") format("woff2"),
+		url("../fonts/Lato-HairlineItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.header {
+	white-space: nowrap;
+}
+.header__kolumn-left {
+	display: inline-block;
+	margin-right: 15%;
+	margin-left: 5px;
+}
+.header__logo {
+}
+.logo {
+	display: inline-block;
+	font-family: "Playfair Display";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+	color: #222831;
+}
+.header__kolumn-center {
+	display: inline-block;
+	margin-right: 15%;
+}
+.header__main-list ul {
+	display: inline-block;
+	font-size: 0;
+}
+.header__main-list li {
+	display: inline-block;
+	margin-right: 40px;
+}
+.header__main-list a {
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	color: #222831;
+	font-family: "Lato";
+}
+.header__main-list a:hover {
+	text-shadow: 2px 2px 5px rgb(36, 34, 196);
+}
+.header__main-list li:last-child {
+	margin-right: 0px;
+}
+.header__kolumn-right {
+	display: inline-block;
+	margin-right: 5px;
+}
+.header__aut-btns {
+	display: inline-block;
+	font-size: 0;
+}
+.header__btn-l {
+	display: inline-block;
+	font-size: 16px;
+}
+.btn {
+	line-height: 19px;
+	background-color: #ff5722;
+	padding: 12px 0;
+	min-width: 103px;
+	text-align: center;
+	cursor: pointer;
+}
+.btn a {
+	color: #fff;
+}
+.header__btn-r {
+	display: inline-block;
+	font-size: 16px;
+}
+.header__btn_white {
+	background-color: #fff;
+}
+.header__btn_white a {
+	color: #ff5722;
+}
+.btn:hover {
+	text-shadow: 0 3px 5px #fff;
+}
+.header__btn_white:hover {
+	text-shadow: 0 3px 5px #ff5722;
+}
+
+.head {
+}
+.block-head {
+	margin-top: 56px;
+}
+.title {
+	display: inline-block;
+	max-width: 55%;
+}
+.head__title {
+	margin-right: 61px;
+}
+.key-word {
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+.key-word::after {
+	display: inline-block;
+	content: "";
+	background-color: #000;
+	width: 73px;
+	height: 2px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+.title__big {
+	font-family: Lora;
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 67px;
+	color: #0d2c4a;
+}
+.title__big span {
+	color: #ff5722;
+}
+.head__text {
+	display: inline-block;
+	max-width: 385px;
+	vertical-align: top;
+	margin-top: 50px;
+}
+.text {
+	display: inline-block;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+	color: #6a6a6a;
+}
+
+.block-advantages {
+	margin-top: 115px;
+}
+.basic-advantages {
+	max-width: 50%;
+	display: inline-block;
+	margin-right: 15%;
+	margin-top: 27px;
+}
+.basic-advantages__column {
+	display: inline-block;
+	max-width: 50%;
+	font-size: 0;
+}
+.basic-advantages__column:last-child {
+	text-align: right;
+}
+.basic-advantages__column ul {
+	display: inline-block;
+	max-width: 50%;
+}
+.basic-advantages__column li {
+	font-family: Lora;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 41px;
+	color: #10375c;
+	white-space: nowrap;
+	margin-bottom: 64px;
+}
+.basic-advantages__column li::before {
+	content: " ";
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	vertical-align: middle;
+	margin-right: 24px;
+}
+.basic-advantages__column li::after {
+	content: "Meeting rooms";
+	display: block;
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: left;
+	color: #9a9a9a;
+	margin-left: 90px;
+	margin-top: 8px;
+	white-space: nowrap;
+}
+.basic-advantages__column li:nth-child(2):after {
+	content: "Countries";
+}
+.basic-advantages__column li:nth-child(3):after {
+	content: "Startup mentors";
+}
+.basic-advantages__column li:nth-child(4):after {
+	content: "Event spaces";
+}
+.basic-advantages__column li:nth-child(5):after {
+	content: "Internet speed";
+}
+.basic-advantages__column li:nth-child(6):after {
+	content: "Communities inside";
+}
+.about-advantages {
+	display: inline-block;
+	max-width: 50%;
+	background: #10375c;
+	color: #fff;
+	padding: 54px;
+	vertical-align: top;
+}
+.about-advantages__title ::after {
+	background: #fff;
+}
+.about-advantages__title_title {
+	font-family: Lora;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 51px;
+}
+.about-advantages__title_title span {
+	white-space: nowrap;
+}
+.about-advantages__text {
+	color: #fff;
+}
+.about-advantages__text_text {
+	color: #fff;
+}
+.us-frispes {
+}
+.us-frispes__header {
+}
+.title {
+}
+.us-frispes__title {
+	display: block;
+	text-align: center;
+	max-width: 100%;
+	margin: 24px;
+}
+.us-frispes__subtitle {
+	color: #9a9a9a;
+	font-size: 18px;
+	font-weight: 500;
+	height: 28px;
+	text-align: center;
+	margin-bottom: 56px;
+}
+.us-frispes__body {
+	margin-bottom: 100px;
+}
+.us-frispes__body ul {
+	display: block;
+	height: 53px;
+	font-size: 0;
+	white-space: nowrap;
+}
+.us-frispes__body li {
+	display: inline-block;
+	max-width: 180px;
+	vertical-align: middle;
+	margin-right: 60px;
+}
+.us-frispes__body li:hover {
+	filter: drop-shadow(3px 3px 7px rgba(30, 30, 196, 0.699));
+}
+.us-frispes__body li:nth-child(6) {
+	margin-right: 0;
+	margin-left: -20px;
+}
+.news {
+}
+.news__header {
+}
+.title {
+}
+.news__title {
+	font-family: Lora;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 51px;
+	color: #10375c;
+	margin-bottom: 56px;
+}
+.news__link {
+	display: inline-block;
+	float: right;
+}
+.news__link a {
+	display: inline-block;
+	color: #ff5722;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.news__link a::after {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	width: 32px;
+	height: 32px;
+	background: #fff url(../img/chevron_down.png) center no-repeat;
+}
+.news__body {
+}
+.news__string {
+}
+.news__big-b {
+}
+.block-big {
+}
+.block-big__img {
+}
+.block-big__title {
+}
+.block-big__text {
+}
+.block-big__author {
+}
+.news__small-b {
+	display: inline-block;
+}
+.block-small {
+	max-width: 350px;
+	max-height: 320px;
+}
+.block-small__img {
+	max-width: 350px;
+	max-height: 204px;
+}
+.block-small__text {
+	padding: 16px 0 16px 16px;
+}
+.block-small__title {
+	font-family: Lora;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #222831;
+	min-height: 56px;
+}
+.block-small__subtitle {
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #9a9a9a;
+}
